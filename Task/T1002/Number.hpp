@@ -1,5 +1,5 @@
-#ifndef NUMBER_HPP
-#define NUMBER_HPP
+#ifndef __T1002_NUMBER_HPP__
+#define __T1002_NUMBER_HPP__
 
 #include "Word.hpp"
 
@@ -30,4 +30,4 @@ private:
 };
 
 }} //toj::task
-#endif // NUMBER_HPP
+#endif // __T1002_NUMBER_HPP__

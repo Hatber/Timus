@@ -1,5 +1,5 @@
-#ifndef REVERSEROOT_HPP
-#define REVERSEROOT_HPP
+#ifndef __T1001_REVERSEROOT_HPP__
+#define __T1001_REVERSEROOT_HPP__
 
 #include "../ATask.hpp"
 #include <vector>
@@ -21,4 +21,4 @@ protected:
 };
 
 }} //toj::task1001
-#endif // REVERSEROOT_HPP
+#endif // __T1001_REVERSEROOT_HPP__

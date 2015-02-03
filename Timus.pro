@@ -15,7 +15,7 @@ HEADERS += \
     Task/ATask.hpp \
     Task/T1000/APlusBProblem.hpp \
     Task/T1001/ReverseRoot.hpp \
-    Task/T1002/Phones.h \
     Task/T1002/Word.hpp \
-    Task/T1002/Number.hpp
+    Task/T1002/Number.hpp \
+    Task/T1002/Phones.hpp
 

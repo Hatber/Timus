@@ -1,5 +1,5 @@
-#ifndef __T1002_PHONES_H__
-#define __T1002_PHONES_H__
+#ifndef __T1002_PHONES_HPP__
+#define __T1002_PHONES_HPP__
 
 #include "../ATask.hpp"
 #include "Number.hpp"
@@ -24,4 +24,4 @@ private:
 };
 
 }} //toj::task
-#endif // __T1002_PHONES_H__
+#endif // __T1002_PHONES_HPP__

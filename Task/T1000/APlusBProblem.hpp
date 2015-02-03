@@ -1,5 +1,5 @@
-#ifndef APLUSBPROBLEM_HPP
-#define APLUSBPROBLEM_HPP
+#ifndef __T1000_APLUSBPROBLEM_HPP__
+#define __T1000_APLUSBPROBLEM_HPP__
 
 #include "../ATask.hpp"
 
@@ -21,4 +21,4 @@ protected:
 };
 
 }} //toj::task1000
-#endif // APLUSBPROBLEM_HPP
+#endif // __T1000_APLUSBPROBLEM_HPP__
