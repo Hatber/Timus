@@ -6,7 +6,6 @@
 #include <string>
 #include <vector>
 
-namespace toj {
 namespace task1002 {
 
 class Number {
@@ -21,13 +20,13 @@ public:
 private:
     bool isMatching(const std::string& word, int position);
     std::vector< size_t > makeSequence(
-            const std::vector< int >& wordIndex,
-            const std::vector< int >& sequenceCost
+            const std::vector< size_t >& wordIndex,
+            const std::vector< size_t >& sequenceCost
     );
 
     std::string _number;
     std::vector< Word > _dictionary;
 };
 
-}} //toj::task
+} //task1002
 #endif // __T1002_NUMBER_HPP__

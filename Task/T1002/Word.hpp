@@ -3,7 +3,6 @@
 
 #include <string>
 
-namespace toj {
 namespace task1002 {
 
 class Word {
@@ -16,12 +15,12 @@ public:
     static bool lexicographicalCompare(const Word& lhs, const Word& rhs);
 
 private:
-    std::string wordToDiget(const std::string& word);
+    std::string wordToDigit(const std::string& word);
     char letterToNumber(char letter);
 
     std::string _word;
-    std::string _diget;
+    std::string _digit;
 };
 
-}} //toj::task
+} //task1002
 #endif // __T1002_WORD_HPP__

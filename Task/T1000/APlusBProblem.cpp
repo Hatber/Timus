@@ -1,6 +1,6 @@
 #include "APlusBProblem.hpp"
 
-using namespace toj::task1000;
+using namespace task1000;
 
 APlusBProblem::APlusBProblem(std::istream& input, std::ostream& output) :
     ATask(input, output) { }

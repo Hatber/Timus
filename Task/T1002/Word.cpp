@@ -2,12 +2,12 @@
 
 #include <algorithm>
 
-using namespace toj::task1002;
+using namespace task1002;
 
 
-Word::Word(const std::string &word) : _word(word), _diget(wordToDiget(word)) { }
+Word::Word(const std::string &word) : _word(word), _digit(wordToDigit(word)) { }
 
-const std::string& Word::getDigit() const { return _diget; }
+const std::string& Word::getDigit() const { return _digit; }
 const std::string& Word::getWord()  const { return _word; }
 
 bool Word::lexicographicalCompare(const Word& lhs, const Word& rhs) {
@@ -17,32 +17,32 @@ bool Word::lexicographicalCompare(const Word& lhs, const Word& rhs) {
            );
 }
 
-std::string Word::wordToDiget(const std::string& word) {
+std::string Word::wordToDigit(const std::string& word) {
     size_t wordSize = word.size();
 
-    std::string diget;
-    diget.resize(wordSize);
+    std::string digit;
+    digit.resize(wordSize);
 
     for(size_t i = 0; i<wordSize; i++) {
-        diget[i] = letterToNumber(tolower(word[i]));
+        digit[i] = letterToNumber(tolower(word[i]));
     }
 
-    return diget;
+    return digit;
 }
 
 char Word::letterToNumber(char letter) {
     switch (letter) {
-        case 'i' : case 'j' :            return '1'; break;
-        case 'a' : case 'b' : case 'c' : return '2'; break;
-        case 'd' : case 'e' : case 'f' : return '3'; break;
-        case 'g' : case 'h' :            return '4'; break;
-        case 'k' : case 'l' :            return '5'; break;
-        case 'm' : case 'n' :            return '6'; break;
-        case 'p' : case 'r' : case 's' : return '7'; break;
-        case 't' : case 'u' : case 'v' : return '8'; break;
-        case 'w' : case 'x' : case 'y' : return '9'; break;
-        case 'o' : case 'q' : case 'z' : return '0'; break;
+        case 'i' : case 'j' :            return '1';
+        case 'a' : case 'b' : case 'c' : return '2';
+        case 'd' : case 'e' : case 'f' : return '3';
+        case 'g' : case 'h' :            return '4';
+        case 'k' : case 'l' :            return '5';
+        case 'm' : case 'n' :            return '6';
+        case 'p' : case 'r' : case 's' : return '7';
+        case 't' : case 'u' : case 'v' : return '8';
+        case 'w' : case 'x' : case 'y' : return '9';
+        case 'o' : case 'q' : case 'z' : return '0';
 
-        default: return '?'; break;
+        default: return '?';
     }
 }

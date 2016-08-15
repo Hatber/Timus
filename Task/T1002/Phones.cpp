@@ -1,18 +1,15 @@
 #include "Phones.hpp"
 
-#include <string>
-
-using namespace toj::task1002;
+using namespace task1002;
 
 
 Phones::Phones(std::istream& input, std::ostream& output) :
     ATask(input, output) { }
 
-
 void Phones::Input() {
     std::string number;
     std::string word;
-    int dictionarySize;
+    size_t dictionarySize;
 
     while(true) {
         _input >> number;

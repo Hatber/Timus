@@ -1,10 +1,9 @@
-#ifndef __T1001_REVERSEROOT_HPP__
-#define __T1001_REVERSEROOT_HPP__
+#ifndef __T1001_REVERSE_ROOT_HPP__
+#define __T1001_REVERSE_ROOT_HPP__
 
 #include "../ATask.hpp"
 #include <vector>
 
-namespace toj {
 namespace task1001 {
 
 class ReverseRoot : public task::ATask {
@@ -20,5 +19,5 @@ protected:
     std::vector<long double> sqrtNumbers;
 };
 
-}} //toj::task1001
-#endif // __T1001_REVERSEROOT_HPP__
+} //task1001
+#endif // __T1001_REVERSE_ROOT_HPP__

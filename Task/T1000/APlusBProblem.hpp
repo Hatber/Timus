@@ -1,9 +1,8 @@
-#ifndef __T1000_APLUSBPROBLEM_HPP__
-#define __T1000_APLUSBPROBLEM_HPP__
+#ifndef __T1000_A_PLUS_B_PROBLEM_HPP__
+#define __T1000_A_PLUS_B_PROBLEM_HPP__
 
 #include "../ATask.hpp"
 
-namespace toj {
 namespace task1000 {
 
 class APlusBProblem : public task::ATask {
@@ -20,5 +19,5 @@ protected:
     int result;
 };
 
-}} //toj::task1000
-#endif // __T1000_APLUSBPROBLEM_HPP__
+} //task1000
+#endif // __T1000_A_PLUS_B_PROBLEM_HPP__

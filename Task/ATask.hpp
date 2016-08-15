@@ -1,9 +1,8 @@
-#ifndef __ATASK_HPP__
-#define __ATASK_HPP__
+#ifndef __A_TASK_HPP__
+#define __A_TASK_HPP__
 
 #include <iostream>
 
-namespace toj {
 namespace task {
 
 class ATask {
@@ -23,5 +22,5 @@ protected:
     std::ostream& _output;
 };
 
-}} //toj::task
-#endif // __ATASK_HPP__
+} //task
+#endif // __A_TASK_HPP__

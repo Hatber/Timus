@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    toj::task1001::ReverseRoot task(cin, cout);
+    task1001::ReverseRoot task(cin, cout);
     task.Solve();
 
     return 0;

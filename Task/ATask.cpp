@@ -1,6 +1,6 @@
 #include "ATask.hpp"
 
-using namespace toj::task;
+using namespace task;
 
 ATask::ATask(std::istream &input, std::ostream &output) :
     _input(input), _output(output) { }

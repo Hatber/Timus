@@ -6,7 +6,6 @@
 
 #include <vector>
 
-namespace toj {
 namespace task1002 {
 
 class Phones : public task::ATask {
@@ -23,5 +22,5 @@ private:
     std::vector< std::string > _answer;
 };
 
-}} //toj::task
+} //task1002
 #endif // __T1002_PHONES_HPP__
