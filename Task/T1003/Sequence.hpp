@@ -3,13 +3,17 @@
 
 #include "Interval.hpp"
 
+#include <set>
+
 namespace task1003 {
 
-class Sequence
-{
-public:
-    Sequence();
-};
+    class Sequence : public std::set < Interval > {
+    public:
+        bool addInterval(Interval newInterval);
+
+    private:
+        ParityE makeParity(ParityE f, ParityE s);
+    };
 
 } //task1003
 

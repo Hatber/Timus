@@ -10,13 +10,6 @@ Word::Word(const std::string &word) : _word(word), _digit(wordToDigit(word)) { }
 const std::string& Word::getDigit() const { return _digit; }
 const std::string& Word::getWord()  const { return _word; }
 
-bool Word::lexicographicalCompare(const Word& lhs, const Word& rhs) {
-    return std::lexicographical_compare(
-                lhs.getDigit().begin(), lhs.getDigit().end(),
-                rhs.getDigit().begin(), rhs.getDigit().end()
-           );
-}
-
 std::string Word::wordToDigit(const std::string& word) {
     size_t wordSize = word.size();
 

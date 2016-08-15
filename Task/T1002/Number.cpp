@@ -65,8 +65,7 @@ std::vector< size_t > Number::findSequence() {
         currentNumberIndex++;
     }
 
-    std::vector< size_t > result;
-    return result;
+    return std::vector< size_t >();
 }
 
 bool Number::isMatching(const std::string& word, int position) {

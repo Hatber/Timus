@@ -12,8 +12,6 @@ public:
     const std::string& getDigit() const;
     const std::string& getWord()  const;
 
-    static bool lexicographicalCompare(const Word& lhs, const Word& rhs);
-
 private:
     std::string wordToDigit(const std::string& word);
     char letterToNumber(char letter);
