@@ -12,7 +12,6 @@ public:
 
     void Input();
     void Output();
-
     void Logic();
 
 protected:
@@ -20,4 +19,5 @@ protected:
 };
 
 } //task1001
+
 #endif // __T1001_REVERSE_ROOT_HPP__

@@ -18,10 +18,10 @@ void ReverseRoot::Input() {
 }
 
 void ReverseRoot::Output() {
-    int inCount = (int)sqrtNumbers.size();
-    for(int i = inCount-1; i>=0; i--) {
+    size_t inCount = sqrtNumbers.size();
+    for(size_t i = 0; i < inCount; i++) {
         _output.setf(std::ios::fixed, std::ios::floatfield);
-        _output << std::fixed << std::setprecision(4) << sqrtNumbers[i] << std::endl;
+        _output << std::fixed << std::setprecision(4) << sqrtNumbers[inCount - 1 - i] << std::endl;
     }
 }
 

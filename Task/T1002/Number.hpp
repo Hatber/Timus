@@ -29,4 +29,5 @@ private:
 };
 
 } //task1002
+
 #endif // __T1002_NUMBER_HPP__

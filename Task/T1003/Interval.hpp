@@ -10,4 +10,5 @@ public:
 };
 
 } //task1003
+
 #endif // __1003_INTERVAL_HPP__

@@ -14,7 +14,6 @@ public:
 
     virtual void Input()  = 0;
     virtual void Output() = 0;
-
     virtual void Logic() = 0;
 
 protected:
@@ -23,4 +22,5 @@ protected:
 };
 
 } //task
+
 #endif // __A_TASK_HPP__

@@ -12,10 +12,10 @@ public:
 
     void Input();
     void Output();
-
     void Logic();
 
 };
 
 } //task1003
+
 #endif // __1003_PARITY_HPP__

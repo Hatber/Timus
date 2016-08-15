@@ -13,8 +13,6 @@ void Parity::Output() {
 
 }
 
-
-
 void Parity::Logic() {
 
 }

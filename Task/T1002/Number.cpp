@@ -92,7 +92,7 @@ std::vector< size_t > Number::makeSequence(
     std::vector< size_t > wordIndexSequence;
     size_t wordIndexPosition = wordIndex.size() - 1;
 
-    for(size_t seqSize = sequenceCost.back(); seqSize > 0; seqSize--) {
+    for(int seqSize = sequenceCost.back(); seqSize > 0; seqSize--) {
         wordIndexSequence.push_back(wordIndex[wordIndexPosition]);
         wordIndexPosition -= _dictionary[wordIndex[wordIndexPosition]].getDigit().size();
     }

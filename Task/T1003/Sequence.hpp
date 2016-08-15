@@ -12,4 +12,5 @@ public:
 };
 
 } //task1003
+
 #endif // __1003_SEQUENCE_HPP__

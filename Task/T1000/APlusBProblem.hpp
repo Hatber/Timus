@@ -11,7 +11,6 @@ public:
 
     void Input();
     void Output();
-
     void Logic();
 
 protected:
@@ -20,4 +19,5 @@ protected:
 };
 
 } //task1000
+
 #endif // __T1000_A_PLUS_B_PROBLEM_HPP__

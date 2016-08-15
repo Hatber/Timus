@@ -23,4 +23,5 @@ private:
 };
 
 } //task1002
+
 #endif // __T1002_WORD_HPP__

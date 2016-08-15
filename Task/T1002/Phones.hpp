@@ -14,7 +14,6 @@ public:
 
     void Input();
     void Output();
-
     void Logic();
 
 private:
@@ -23,4 +22,5 @@ private:
 };
 
 } //task1002
+
 #endif // __T1002_PHONES_HPP__
