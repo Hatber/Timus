@@ -24,7 +24,6 @@ private:
     std::vector< int > answers;
 };
 
-
 } //task1003
 
 #endif // __1003_PARITY_HPP__

@@ -18,15 +18,15 @@ void Parity::Input() {
     while(true) {
         std::vector< Interval > intervals;
 
-        std::cin >> sequenceSize;
+        _input >> sequenceSize;
         if(sequenceSize == -1) {
             return;
         }
 
-        std::cin >> questionSize;
+        _input >> questionSize;
 
         for(int i = 0; i<questionSize; i++) {
-            std::cin >> start >> end >> parity;
+            _input >> start >> end >> parity;
             intervals.push_back(Interval(start, end, makeParityFromString(parity)));
         }
 
