@@ -2,7 +2,7 @@
 
 using namespace task1003;
 
-bool Sequence::addInterval(Interval newInterval) {
+bool Sequence::addInterval(const Interval& newInterval) {
     iterator it = find(newInterval);
 
     if(it == end()) {

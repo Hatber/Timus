@@ -13,10 +13,9 @@ namespace task1003 {
         int _start;
         int _end;
         ParityE _parity;
-    };
 
-    bool operator < (const Interval& lhs, const Interval& rhs);
-    ParityE makeParityFromString(const std::string& p);
+        bool operator < (const Interval& rhs) const;
+    };
 
 } //task1003
 

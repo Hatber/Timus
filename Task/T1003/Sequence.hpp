@@ -9,7 +9,7 @@ namespace task1003 {
 
     class Sequence : public std::set < Interval > {
     public:
-        bool addInterval(Interval newInterval);
+        bool addInterval(const Interval& newInterval);
 
     private:
         ParityE makeParity(ParityE f, ParityE s);
