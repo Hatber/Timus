@@ -45,6 +45,11 @@ void Parity::Logic() {
     std::size_t testCount = testsData.size();
     for(std::size_t i = 0; i < testCount; i++) {
         std::size_t intervalCount = testsData[i].size();
+        if(intervalCount == 0) {
+            answers.push_back(0);
+            continue;
+        }
+
         Sequence seq;
         for(std::size_t j = 0; j < intervalCount; j++) {
             if(!seq.addInterval(testsData[i][j])) {
